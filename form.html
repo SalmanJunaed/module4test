@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamaler mayer pitha ghor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul><!--li*4>a-->
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown"><!--li*4>a-->
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li>
+                            <a href="table.html">Table</a>
+                            <ul class="dropdown"><!--li*4>a-->
+                                <li><a href="video.html">Video</a></li>
+                                <li><a href="form.html">Form</a></li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form action="">
+                <label for="name">
+                    Your Name:
+                    <input id="name" type="text" placeholder="Your Name">
+                </label>
+                <label for="name">
+                    Your e-mail:
+                    <input id="email" type="text" placeholder="Your e-mail">
+                </label>
+                <label for="phone">
+                    Your Number:
+                    <input id="phone" type="text" placeholder="Your phone number">
+                </label>
+                <fieldset>
+                    <legend>Pick one pitha</legend>
+                    <label for="chitoy">
+                        <input type="radio" name="pitha" id="chitoy">
+                        Chitoy
+                    </label>
+                    <label for="Vapa">
+                        <input type="radio" name="pitha" id="Vapa">
+                        Vapa
+                    </label>
+                    <label for="puri">
+                        <input type="radio" name="pitha" id="puri">
+                        Puri
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick one or more vorta</legend>
+                    <label for="shorisha">
+                        <input type="checkbox" name="vorta" id="shorisha">
+                        Shorisha
+                    </label>
+                    <label for="shutki">
+                        <input type="checkbox" name="vorta" id="shutki">
+                        Shutki
+                    </label>
+                    <label for="morich">
+                        <input type="checkbox" name="vorta" id="morich">
+                        Morich
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
